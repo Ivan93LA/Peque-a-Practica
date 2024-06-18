@@ -1,0 +1,109 @@
+nav {
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    width: 100%;
+    color: white;
+    font-family: 'League Spartan', sans-serif;
+
+}
+
+.b-pag__link{
+    text-decoration: none;
+}
+
+nav h1 {
+    display: inline-block;
+    float: left;
+    margin-right: 20px;
+
+}
+
+nav ul li {
+    float: left;
+    margin: 10px;
+    list-style-type: none;
+}
+
+span{
+    color: white;
+}
+.article-big, .article-small {
+    width: 100%;
+    display: flex;
+    grid-template-columns: 1fr, 1fr;
+
+}
+
+.article-big__image {
+    width: 66%;
+
+}
+
+
+.article-big .article__title{
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 0.3em;
+    font-size: 30px;
+    
+
+}
+.article-big__content, .article-small__content {
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+    justify-content: center;
+    align-items: center;
+}
+
+.a{
+    display: flex;
+        
+}
+
+.article-big__content > div, .article-small__content {
+    padding: 0px 40px;
+}
+
+.article-big__summary, .article-small__summary {
+    display: inline-block;
+    color: gray;
+    line-height: 1.4em;
+}
+
+.article-big__button {
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 24px;
+    letter-spacing: 0.2em;
+
+}
+
+.article-small{
+grid-template-columns: 1fr, 1fr, 1fr;
+}
+
+
+.article-small > * {
+    width: 33%;
+}
+
+.article-small .article__title{
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 0.3em;
+    
+
+}
+.article-small__imagenSecundaria{
+    opacity: 0.5;
+    width: 33%;
+}
+
+.article-big__arrow{
+    margin-left: 15px;
+}
